@@ -579,6 +579,15 @@ define Device/mqmaker_witi-512m
 endef
 TARGET_DEVICES += mqmaker_witi-512m
 
+define Device/tplink_tl-wdr8620-v3
+  DEVICE_VENDOR := TP-Link
+  DEVICE_MODEL := TL-WDR8620
+  DEVICE_VARIANT := v3
+  DEVICE_PACKAGES := kmod-mt7615e kmod-mt7615-firmware kmod-usb3
+  IMAGE_SIZE := 7936k
+endef
+TARGET_DEVICES += tplink_tl-wdr8620-v3
+
 define Device/wndr3700v5
   DTS := WNDR3700V5
   BLOCKSIZE := 64k
