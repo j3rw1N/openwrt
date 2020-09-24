@@ -585,6 +585,7 @@ define Device/tplink_tl-wdr8620-v3
   DEVICE_VARIANT := v3
   DEVICE_PACKAGES := kmod-mt7615e kmod-mt7615-firmware kmod-usb3
   IMAGE_SIZE := 7936k
+  DEVICE_TITLE := TP-LINK TL-WDR8620 v3
 endef
 TARGET_DEVICES += tplink_tl-wdr8620-v3
 
